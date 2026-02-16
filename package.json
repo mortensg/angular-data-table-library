@@ -1,0 +1,29 @@
+{
+  "name": "@mortensg/angular-data-table-library",
+  "version": "1.0.0",
+  "description": "A comprehensive Angular data table library with pagination, sorting, filtering, and more",
+  "author": "MortenSG",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^21.0.0",
+    "@angular/core": "^21.0.0",
+    "@angular/cdk": "^21.0.0"
+  },
+  "dependencies": {
+    "@storybook/angular": "^7.0.0",
+    "@storybook/addon-essentials": "^7.0.0",
+    "@storybook/addon-a11y": "^7.0.0"
+  },
+  "scripts": {
+    "build": "ng build @mortensg/angular-data-table-library",
+    "build:storybook": "build-storybook",
+    "start": "ng serve",
+    "test": "ng test",
+    "lint": "ng lint",
+    "storybook": "storybook serve",
+    "build-storybook": "build-storybook"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
